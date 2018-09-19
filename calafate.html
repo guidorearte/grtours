@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="calafate.css" />
+    <script src="calafate.js"></script>
+</head>
+<body>
+
+  
+    <div id="mySidenav"  >
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="inicio.html" style="margin-top:2.4%">Inicio</a>
+        <div class="dropdown">
+                
+          <button class="dropbtn">Destinos Nacionales 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="villa-carlos-paz.html">Villa Carlos Paz</a>
+            <a href="bariloche.html">Bariloche</a>
+            <a href="cataratas.html">Cataratas del Iguazu</a>
+            <a href="salta.html">Salta</a>
+            <a href="mar-del-plata.html">Mar Del Plata</a>
+            <a href="calafate.html">Calafate</a>
+            <a href="mendoza.html">Mendoza</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+                
+                <button class="dropbtn" >Destinos Internacionales
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                        <a href="italia.html">Italia</a>
+                        <a href="grecia.html">Grecia</a>
+                        <a href="australia.html">Australia</a>
+                        <a href="egipto.html">Egipto</a>
+                        <a href="estados-unidos.html">Estados Unidos</a>
+                        <a href="cuba.html">Cuba</a>
+                        <a href="mexico.html">Mexico</a>
+                        <a href="suiza.html">Suiza</a>
+                        <a href="brasil.html">Brasil</a>
+                        <a href="rusia.html">Rusia</a>
+                </div>
+              </div> 
+              <a href="contacto.html" style="margin-top:2.4%">Contacto</a>
+            
+      </div>
+
+
+    <span class="menu" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; 
+        <h6 style="font-family: impact;margin-top: -10%; margin-left: 80%;">GR Tours</h6>
+         </span>
+  
+    <style>
+   
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(202, 17, 11);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+            font-size: 16px;    
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        h1{
+                  margin-left: 85%;
+                }
+        </style>
+ <header>
+
+<div class="navbar">
+
+<a href="inicio.html" style="margin-top:2.4%">Inicio</a>
+<div class="dropdown">
+        
+  <button class="dropbtn">Destinos Nacionales 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+    <a href="villa-carlos-paz.html">Villa Carlos Paz</a>
+    <a href="bariloche.html">Bariloche</a>
+    <a href="cataratas.html">Cataratas del Iguazu</a>
+    <a href="salta.html">Salta</a>
+    <a href="mar-del-plata.html">Mar Del Plata</a>
+    <a href="calafate.html">Calafate</a>
+    <a href="mendoza.html">Mendoza</a>
+  </div>
+</div> 
+<div class="dropdown">
+        
+        <button class="dropbtn" >Destinos Internacionales
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+                <a href="italia.html">Italia</a>
+                <a href="grecia.html">Grecia</a>
+                <a href="australia.html">Australia</a>
+                <a href="egipto.html">Egipto</a>
+                <a href="estados-unidos.html">Estados Unidos</a>
+                <a href="cuba.html">Cuba</a>
+                <a href="mexico.html">Mexico</a>
+                <a href="suiza.html">Suiza</a>
+                <a href="brasil.html">Brasil</a>
+                <a href="rusia.html">Rusia</a>
+        </div>
+      </div> 
+      <a href="contacto.html" style="margin-top:2.4%">Contacto</a>
+      <h1 style="font-family: impact">GR Tours</h1>
+</div> 
+
+   
+        <h2 class="title">Calafate</h2>
+    </header>
+    <!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="primera-imagen">
+        <div class="column">     
+          <img src="nacional/calafate1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+    </div>
+    <div class="segunda-imagen">
+        <div class="column">     
+          <img src="nacional/calafate2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">  
+        </div>
+    </div>
+        <div class="tercera-imagen"> 
+        <div class="column">   
+          <img src="nacional/calafate3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+    </div>
+        
+    <div class="cuarta-imagen"> 
+        <div class="column">  
+          <img src="nacional/calafate4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div> 
+    </div>
+      </div>
+   
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="nacional/calafate1.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="nacional/calafate2.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="nacional/calafate3.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="nacional/calafate4.jpg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="nacional/calafate1.jpg" onclick="currentSlide(1)" alt="Calafate">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="nacional/calafate2.jpg" onclick="currentSlide(2)" alt="Calafate" >
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="nacional/calafate3.jpg" onclick="currentSlide(3)" alt="Calafate" >
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="nacional/calafate4.jpg" onclick="currentSlide(4)" alt="Calafate" >
+          </div>
+        </div>
+      </div>
+     
+      <nav>
+          <p><strong> Hace click en alguna de las imagenes!</strong></p>
+        <p>Emplazada sobre la margen sur del Lago Argentino es uno de los centros turísticos más importantes de la provincia 
+          de Santa Cruz.<br> Es una pintoresca villa turística, remanso de paz y de vegetación que maravilla al viajero, 
+          acostumbrado a la aridez de la meseta patagonica.<br> A solo 78 km. pueden visitar el Parque Nacional Los Glaciares 
+          y el Glaciar Perito Moreno, el atractivo mas famoso.<br> Además de los Hielos Continentales y sus diversos glaciares, 
+          se puede disfrutar de actividades de aventura como trekking, cabalgatas y andinismo<br> tanto en las cercanías de
+           El Calafate como en el Cerro Fitz Roy en la ciudad de El Chaltén.<br> Desde El Calafate pueden visitarse una gran variedad
+          de estancias, donde es posible alojarse o bien pasar el día.<br> Allí uno puede apreciar las actividades rurales 
+          caracteristicas de la zona, degustar un asado de cordero o bien disfrutar de la paz e inmensidad de la Patagonia.</p>
+      </nav>
+
+      <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'London')">Descripcion</button>
+          <button class="tablinks" onclick="openCity(event, 'Paris')">Medios de pago</button>
+        </div>
+        
+        <div id="London" class="tabcontent" style="background-color: rgb(199, 101, 69)">
+          <h3>EL Paquete incluye:</h3>
+          <p> Transfer IN regular Aeropuerto de El Calafate <br>– Hotel
+              04 noches de alojamiento en el Hotel Sierra Nevada 3*<br> con desayuno habitación doble Standard con desayuno
+              Crucero Gourmet María Turquesa<br> Full Day incluye Box Lunch Gourmet (No incluye entrada al Parque Nacional 
+              Los Glaciares, ni traslado al puerto)<br>
+              Transfer OUT regular Hotel<br> – Aeropuerto de El Calafate
+                </p>
+        </div>
+        
+        <div id="Paris" class="tabcontent" style="background-color: rgb(214, 141, 57)">
+        
+          <p>Tarifa por persona en base doble: ARS 10.700<br>
+
+              ADICIONAL POR FIESTAS 24,25, 31 DE DICIEMBRE Y 01 DE ENERO: ARS 400<br>
+              
+              Tarifas sujetas a disponibilidad al momento de efectuar las reservas.</p> 
+        </div>
+      
+        
+        <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        </script>
+
+<style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    </style>
+
+<style>
+  body {
+      font-family: "Lato", sans-serif;
+  }
+  
+  #mySidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+     
+  }
+  
+  #mySidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+      
+  }
+  
+  #mySidenav a:hover {
+      color: #f1f1f1;
+  }
+  
+  #mySidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+  
+  @media screen and (min-width: 769px) {
+
+    .menu {
+     display: none;
+
+    }
+
+    #mySidenav {
+     display: none;
+    }
+
+    p{
+    
+    font-size: 120%;
+  
+}
+  }
+
+  @media screen and (max-width: 768px) {
+    #mySidenav {padding-top: 15px;
+  
+    }
+    #mySidenav a {font-size: 18px;}
+
+    .navbar{
+      display: none;
+    }
+
+  p{
+    
+      font-size: 150%;
+    
+  }
+
+  .primera-imagen{
+width: 109%;
+  }
+
+  .segunda-imagen{
+    width:91.5%;
+  }
+
+  .tercera-imagen {
+width: 88.5%;
+  }
+
+  .cuarta-imagen {
+width: 109%;
+  }
+
+  }
+  </style>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+        <center>
+        <footer style="background-color: grey">
+            <p>Seguinos en nuestras redes sociales!</p>
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <p><strong>GR tours SRL</strong></p>
+            </footer>
+          </center>
+</body>
+</html>
